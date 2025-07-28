@@ -96,6 +96,7 @@ Inżynier sieci i student cyberbezpieczeństwa
 🌐 [Twoje portfolio lub LinkedIn](https://...)
 
 Plan rozbudowy projektu – kolejność wdrażania po zakończeniu podstaw
+
 🔹 Etap 1 – Zabezpieczenia wewnętrzne
 ✅ 1. ACL na routerze – izolacja między biurami
 Tylko VLAN 50 (IT) ma dostęp do wszystkich VLAN.
