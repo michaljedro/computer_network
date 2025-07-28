@@ -98,6 +98,7 @@ Inżynier sieci i student cyberbezpieczeństwa
 Plan rozbudowy projektu – kolejność wdrażania po zakończeniu podstaw
 
 🔹 Etap 1 – Zabezpieczenia wewnętrzne
+
 ✅ 1. ACL na routerze – izolacja między biurami
 Tylko VLAN 50 (IT) ma dostęp do wszystkich VLAN.
 
@@ -118,6 +119,7 @@ Automatyczne przydzielanie IP dla komputerów.
 DNS z symulowanymi nazwami np. serwer_szefow.local.
 
 🔹 Etap 2 – Zabezpieczenia fizyczne i logiczne
+
 ✅ 4. Port Security
 Ograniczenie liczby urządzeń na port.
 
@@ -131,6 +133,7 @@ Nieużywane porty → shutdown.
 Przypisanie do VLAN 999, aby nie uczestniczyły w produkcyjnej sieci.
 
 🔹 Etap 3 – Monitoring i symulacja zagrożeń
+
 ✅ 6. Honeypot (symulowany serwer przynęta)
 Serwer z otwartymi usługami w osobnym VLAN (np. 200).
 
@@ -142,12 +145,14 @@ Przechwytywanie pakietów do honeypota.
 Obserwacja nieautoryzowanych prób dostępu.
 
 🔹 Etap 4 – Bezpieczne zarządzanie
+
 ✅ 8. Zamiana Telnet na SSH
 Włączenie SSH na routerze i switchach.
 
 Generacja kluczy RSA, ustawienie użytkowników.
 
 🔹 Etap 5 – Firewall + DMZ
+
 ✅ 9. Dodanie Cisco ASA 5505 jako firewalla
 Trzy strefy: inside, outside, dmz.
 
@@ -159,6 +164,7 @@ Dostęp tylko z Internetu lub VLAN 50.
 ACL ograniczające połączenia zwrotne.
 
 🔹 Etap 6 – QoS i VoIP (opcjonalnie)
+
 ✅ 11. Dodanie telefonów IP i Call Manager Express
 VLAN Voice.
 
