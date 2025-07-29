@@ -1,6 +1,5 @@
 # 🌐 Projekt Sieci Komputerowej dla Organizacji Wielooddziałowej
 
-Ten projekt przedstawia kompletną implementację sieci komputerowej dla organizacji składającej się z 12 oddziałów, z których każdy zatrudnia 13 pracowników. Zastosowano separację sieci VLAN, adresację IPv4 oraz dostęp warunkowy dla Biura Informatyki do zasobów wszystkich lokalizacji.
 
 ---
 
