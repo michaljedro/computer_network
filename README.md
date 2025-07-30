@@ -89,10 +89,9 @@ Ten projekt jest objęty licencją MIT. Zobacz [LICENSE](LICENSE), aby uzyskać 
 
 ## 🤝 Autor
 
-**Imię i nazwisko**  
+**Michał Jędro**  
 Inżynier sieci i student cyberbezpieczeństwa  
-📫 kontakt@example.com  
-🌐 [Twoje portfolio lub LinkedIn](https://...)
+
 
 Plan rozbudowy projektu – kolejność wdrażania po zakończeniu podstaw
 
